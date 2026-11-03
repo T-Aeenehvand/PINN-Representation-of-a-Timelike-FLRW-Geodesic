@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "dimensions": [1, 2, 3],
+  "momentum_vectors": {
+    "1": [1.0],
+    "2": [0.8, 0.6],
+    "3": [0.60, 0.48, 0.64]
+  },
+  "background": {"A_m": 1.0, "eta0": 0.5, "lambda_max": 0.8},
+  "training": {"eta_min": 0.5, "eta_max": 1.5, "adam_epochs_per_stage": 250, "stages": 5, "lbfgs_max_iter": 120, "final_collocation_points": 514},
+  "network": {"width": 64, "depth": 5, "activation": "tanh", "dtype": "float64", "device": "cpu"}
+}
