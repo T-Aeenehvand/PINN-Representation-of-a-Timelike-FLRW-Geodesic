@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated article and the archived release. Cite the associated article and add the archival DOI after deposit."
+title: "Physics-Informed Neural Representation of a Timelike FLRW Geodesic: Conformal First Integrals and Affine Reconstruction"
+type: software
+version: 1.0.0
+authors:
+  - family-names: Aeenehvand
+    given-names: Tahereh
+  - family-names: Shariati
+    given-names: Ahmad
+abstract: >-
+  Reproducibility package for a controlled comparison of raw affine second-order,
+  scaled affine, and conformal first-integral PINN representations of a timelike
+  geodesic in a prescribed matter-dominated FLRW background.
