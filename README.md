@@ -161,30 +161,6 @@ python scripts/posttraining_diagnostics.py
 python scripts/reference_tolerance_audit.py
 ```
 
-## Scope of this release
-
-The source and numerical records are provided as the **research-code/resource deposit**, not as the arXiv LaTeX submission. For arXiv submit the separate, clean manuscript source archive, not this resource ZIP. The included `figures/` assets are for evidence and regeneration. The preserved `notebooks/archive/` notebooks are historical, not a guarantee of reproducible bit-for-bit reruns.
-
-Run `python verify_release.py` from the extracted root to check every file against the supplied manifest. The manifest does not include its own digest. PyTorch `.pt` files should only be opened if you trust this repository and its provenance.
-
-## Reproducibility policy
-
-The paper's reported six-cell values are tied to the archived checkpoints and their recorded configurations. Corrected validation logic, cleaner source organization, or a future software environment does not retroactively change those results. Any new training run should be labeled with its seed, configuration, software environment, realized optimizer counters, and output directory.
-
-## Publication release
-
-For the final paper release, create:
-
-1. a public GitHub repository for the readable source;
-2. an immutable Zenodo (or equivalent) archive containing the exact paper release and numerical evidence; and
-3. a Git tag matching the archived DOI release.
-
-After those exist, update `CITATION.cff` and the separate manuscript's Data and code availability section with actual repository URL and DOI. No DOI is fabricated in this resource.
-
-## License
-
-**No public software license has been selected in the supplied materials.** The authors must agree on the sharing/reuse license (or restricted-access terms) before depositing this archive. The presence of a ZIP file does not imply permission to redistribute or modify the code. See `UPLOAD_GUIDE.md`.
-
 ## Additional controls used in the manuscript
 
 The current manuscript includes two supplementary control records beyond the original six-cell seed-42 baseline:
