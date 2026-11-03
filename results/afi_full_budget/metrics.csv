@@ -1,0 +1,2 @@
+eta_lambda_rel_L2,x_lambda_rel_L2,seed,representation,rar,adam_epochs_total,lbfgs_requested,lbfgs_actual_iters,lbfgs_func_evals,collocation_final
+0.082279656701691,0.7533720025730166,42,affine_first_integral,False,7000,220,220,239,514

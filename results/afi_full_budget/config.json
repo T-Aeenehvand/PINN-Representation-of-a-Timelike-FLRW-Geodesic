@@ -1,0 +1,24 @@
+{
+  "seed": 42,
+  "representation": "affine_first_integral",
+  "rar": false,
+  "network": {
+    "width": 64,
+    "depth": 5
+  },
+  "training": {
+    "adam_epochs_per_stage": 1400,
+    "stages": 5,
+    "adam_epochs_total": 7000,
+    "n_initial": 256,
+    "n_add": 64,
+    "final_collocation": 514,
+    "lbfgs_max_iter": 220
+  },
+  "optimizer": {
+    "adam_lr": 0.001,
+    "lbfgs_lr": 0.5,
+    "lbfgs_history": 50
+  },
+  "note": "The L-BFGS state was continued in chunks while preserving the optimizer state; realized total counts are reported."
+}
