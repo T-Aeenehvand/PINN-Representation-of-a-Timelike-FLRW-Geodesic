@@ -1,6 +1,6 @@
-> **Physics-Informed Neural Representation of a Timelike FLRW Geodesic: Conformal First Integrals and Affine Reconstruction**
+## Physics-Informed Neural Representation of a Timelike FLRW Geodesic: Conformal First Integrals and Affine Reconstruction
 
-Tahereh Aeenehvand
+> **Tahereh Aeenehvand**
 
 ## What is in this repository?
 
