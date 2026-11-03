@@ -1,0 +1,2 @@
+eta_lambda_rel_L2,x_lambda_rel_L2,max_abs_Reta,max_abs_Rx,max_abs_dp,max_abs_dkappa,proper_time,proper_time_relative_error,lbfgs_total_iterations,lbfgs_total_function_evaluations,lbfgs_additional_iterations_beyond_220,lbfgs_additional_function_evaluations
+0.0037169037005799657,0.0653997741629512,2.6261207993316322,3.4940041591271864,3.1875404264585825,9.43906642307302,0.7772773592152106,-0.02840330098098684,500,527,280,288

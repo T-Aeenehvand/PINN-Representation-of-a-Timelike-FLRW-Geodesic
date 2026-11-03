@@ -1,0 +1,14 @@
+{
+  "eta_lambda_rel_L2": 0.0037169037005799657,
+  "x_lambda_rel_L2": 0.0653997741629512,
+  "max_abs_Reta": 2.6261207993316322,
+  "max_abs_Rx": 3.4940041591271864,
+  "max_abs_dp": 3.1875404264585825,
+  "max_abs_dkappa": 9.43906642307302,
+  "proper_time": 0.7772773592152106,
+  "proper_time_relative_error": -0.02840330098098684,
+  "lbfgs_total_iterations": 500,
+  "lbfgs_total_function_evaluations": 527,
+  "lbfgs_additional_iterations_beyond_220": 280,
+  "lbfgs_additional_function_evaluations": 288
+}
