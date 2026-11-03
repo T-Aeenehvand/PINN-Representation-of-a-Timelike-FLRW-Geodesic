@@ -1,0 +1,18 @@
+{
+  "profile": "paper",
+  "seed": 42,
+  "second_seed_confirmation": false,
+  "affine_fairness_control": true,
+  "background": {
+    "A_m": 1.0,
+    "eta0": 0.5,
+    "x0": 0.0,
+    "p": 1.0,
+    "kappa": 1.0,
+    "lambda0": 0.0,
+    "lambda_max": 0.8
+  },
+  "network": {"width": 64, "depth": 5, "activation": "tanh", "dtype": "float64", "device": "cpu"},
+  "optimizer": {"adam_lr": 0.001, "adam_epochs_per_stage": 1400, "stages": 5, "lbfgs_lr": 0.5, "lbfgs_history": 50, "lbfgs_max_iter": 220},
+  "collocation": {"initial_count": 256, "rar_add_per_stage": 64, "candidate_pool": 5000, "validation_points": 4000}
+}
