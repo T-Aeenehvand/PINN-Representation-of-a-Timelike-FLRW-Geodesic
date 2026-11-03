@@ -6,8 +6,6 @@ version: 1.0.0
 authors:
   - family-names: Aeenehvand
     given-names: Tahereh
-  - family-names: Shariati
-    given-names: Ahmad
 abstract: >-
   Reproducibility package for a controlled comparison of raw affine second-order,
   scaled affine, and conformal first-integral PINN representations of a timelike
