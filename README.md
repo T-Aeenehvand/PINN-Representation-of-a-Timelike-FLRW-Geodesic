@@ -1,7 +1,3 @@
-# FLRW Geodesic PINN — Physics × Machine Learning Research Resource
-
-Reproducibility repository for:
-
 > **Physics-Informed Neural Representation of a Timelike FLRW Geodesic: Conformal First Integrals and Affine Reconstruction**
 
 Tahereh Aeenehvand
